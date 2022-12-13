@@ -1,0 +1,50 @@
+/*
+Color Palette
+background color: #A4BE7B
+primary: #285430
+secondary: #285430
+tertiary: #B73E3E
+accent: #E5BA73
+white: #fff
+black: #000  
+*/
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+</style>html {
+    /* If we add any padding or border onto an element it oes not affect the width of the element */
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cedarville Cursive';
+    font-weight: 300;
+    background-color: #A4BE7B;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header1 {
+    color: #B73E3E;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family: 'Cedarville Cursive';
+    margin-bottom: 0;
+    margin-top: 1rem; 
+
+}
+
+.header2 {
+    color: #285430;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
