@@ -1,21 +1,22 @@
 /*
 Color Palette
 background color: #A4BE7B
-primary: #285430
-secondary: #285430
-tertiary: #B73E3E
+primary: #799351
+secondary: #799351
+tertiary: #A13939
 accent: #E5BA73
 white: #fff
 black: #000  
 */
 
-<style>@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
-</style>html {
+html {
+
     /* If we add any padding or border onto an element it oes not affect the width of the element */
     box-sizing: border-box;
-}
 
+}
 
 body {
     margin: 0;
@@ -34,17 +35,39 @@ body {
 }
 
 .header1 {
-    color: #B73E3E;
+    color: #A13939;
+    background-color: #799351;
     font-size: 5rem;
     text-transform: uppercase;
     font-family: 'Cedarville Cursive';
     margin-bottom: 0;
-    margin-top: 1rem; 
+    margin-top: 0rem; 
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: none;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-color: #799351; 
 
 }
 
 .header2 {
-    color: #285430;
+    color: #799351;
+    background-color: #A13939;
     font-size: 2.5rem;
     margin-top: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0rem; 
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    border-top: none;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-color: #A13939; 
 }
