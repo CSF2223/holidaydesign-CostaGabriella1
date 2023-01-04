@@ -11,8 +11,8 @@ black: #000
 
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-html {
 
+html {
     /* If we add any padding or border onto an element it oes not affect the width of the element */
     box-sizing: border-box;
 
@@ -27,20 +27,6 @@ body {
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
 .header {
     display: flex;
     flex-direction: column;
@@ -56,8 +42,8 @@ body {
     font-family: 'Cedarville Cursive';
     margin-bottom: 0;
     margin-top: 0rem; 
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
     border-top: none;
@@ -74,8 +60,7 @@ body {
     font-size: 2.5rem;
     margin-top: 0rem;
     margin-bottom: 2rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding: 6rem;
     padding-bottom: 0rem;
     padding-top: 0rem;
     border-top: none;
@@ -99,10 +84,11 @@ body {
     margin: 5rem;
     line-height: 3rem;
     font-size: 1.1rem;
+    
 }
 
 .celebrationImg1 {
     float: right;
     margin: 4rem;
 }
-*/
+
