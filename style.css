@@ -13,7 +13,7 @@ black: #000
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 html {
-    /* If we add any padding or border onto an element it oes not affect the width of the element */
+    /* If we add any padding or border onto an element it oes not affect the width of the element*/ 
     box-sizing: border-box;
 
 }
