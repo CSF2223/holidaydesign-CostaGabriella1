@@ -8,8 +8,8 @@ accent: #E5BA73
 white: #fff
 black: #000  
 */
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 html {
     margin: 0;
     padding: 0;
@@ -18,20 +18,30 @@ html {
 
 body {
     background-color: #A4BE7B;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Questrial', sans-serif;
 }
 
 header {
     background-color: #A13939;
-    font-family: 'Cedarville Cursive';
+    font-family: 'Lobster';
     color: #fff;
     padding: 1.5rem;
     margin: 1.2rem;
 }
 
+footer {
+    background-color: #A13939;
+    margin: 1.2rem;
+    padding: 1.5rem;
+    font-size: 0.55rem;
+}
+
+
 h1,
 h2 {
     text-align: center;
+    font-family: 'Questrial'
+    text-decoration: dotted;
 }
 
 img {
@@ -49,4 +59,34 @@ img {
 
 .celebration p {
     text-indent: 1.2rem;
+}
+
+.source {
+    letter-spacing: 1px;
+}
+
+.source a {
+    text-decoration: none;
+    color: #A4BE7B;
+}
+
+@media (min-width: 800px) {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+     .celebration {
+        width: 25%;
+        font-size: 1.1rem;
+    }
+     
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 0.7rem;
+        color: #FFFBEB;
+    }
 }
